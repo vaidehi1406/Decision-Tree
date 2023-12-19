@@ -47,3 +47,15 @@ A decision tree is a supervised machine learning algorithm used for both classif
 **8.Visual Representation:**
 
 * The Decision Tree is visualized using tree.plot_tree() from scikit-learn's tree module. The resulting plot shows the structure of the Decision Tree.
+
+---
+
+**Result Analysis:**
+
+**Model Score:**
+
+* The model achieves an accuracy of 99.94% on the training set. While this high accuracy might suggest a good fit, it's essential to be cautious about overfitting, especially if the model complexity is not justified by the data.
+
+**Decision Tree Visualization:**
+
+* The decision tree is deep (maximum depth of 12), which may result in overfitting. Such deep trees can capture noise in the training data, leading to poor generalization on new data.
